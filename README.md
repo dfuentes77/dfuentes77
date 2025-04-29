@@ -63,8 +63,12 @@ On this page, you’ll find a few highlights of my work.  If you’re interested
 
 ### Container Build and Deployment Pipeline
 - Comprehensive pipeline for Pull-request to Production deployment
-- Simple OCI builds via buildkit, continuous regression testing, push button Production deployments
+- Simple OCI builds via Dockerfile and Buildkit, using [best practices](https://docs.docker.com/build/building/best-practices/)
+- Automated linting, unit testing, and staging deployments
+- Continuous regression testing against staging, and push button Production deployments
 - Automated and Deterministic builds and build configurations
+- TODO: Use [ECR remote cache when building](https://aws.amazon.com/blogs/containers/announcing-remote-cache-support-in-amazon-ecr-for-buildkit-clients/)
+- TODO: Use [SOCI indices for container lazy loading](https://aws.amazon.com/about-aws/whats-new/2022/09/introducing-seekable-oci-lazy-loading-container-images/)
 <a href="https://github.com/user-attachments/assets/66c78e25-c70c-4173-b2ae-278d82b4321a" target="_blank">
   <img src="https://github.com/user-attachments/assets/66c78e25-c70c-4173-b2ae-278d82b4321a" alt="Concourse API Pipeline Screenshot" width="100%" />
 </a>
