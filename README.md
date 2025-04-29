@@ -77,10 +77,11 @@ On this page, you’ll find a few highlights of my work.  If you’re interested
   <img src="https://github.com/user-attachments/assets/54e08084-226b-49b8-9934-e9f6ac7c731e" alt="Aurora Database Console Screenshot" width="100%" />
 </a>
 
-#### Make use of Aurora replicas
-- Use the Aurora Reader endpoint in Rails multi-database support configuration
+#### Make use of Aurora replicas with Rails
+- Thank you [Rails Team](https://github.com/rails/rails)!
+- Use the Aurora Reader endpoint in [Rails multi-database support configuration](https://guides.rubyonrails.org/active_record_multiple_databases.html)
 - This allowed us to scale down our resources since we're now using all databases
-- Aurora Reader endpoint instances can scale vertically to hundreds of vCPUs and horizontally to 15 readers
+- Aurora instances can scale vertically to hundreds of vCPUs and horizontally to 15 readers
 - Massive scalability while still only paying for what you use
 <a href="https://github.com/user-attachments/assets/b163ef5a-c690-4de8-8a2a-20d80da443eb" target="_blank">
   <img src="https://github.com/user-attachments/assets/b163ef5a-c690-4de8-8a2a-20d80da443eb" alt="Aurora Metrics Screenshot" width="100%" />
