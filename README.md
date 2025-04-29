@@ -70,8 +70,9 @@ On this page, you’ll find a few highlights of my work.  If you’re interested
 
 ### Fargate Infrastructure
 - Cloudformation snippet of Task Definition with JSON logging and Datadog sidecars
+- Uses TargetTrackingScaling to autoscale all services.  Easily enable predictive scaling for normal day to day patterns of scaling.
 - Use AWS Secrets Manager for high level secrets
-- Prefer encrypted credentials for app environment specific secrets
+- Prefer encrypted credentials files for environment specific secrets
 - Rails credentials [is a great example](https://guides.rubyonrails.org/security.html#custom-credentials)
 <a href="https://github.com/user-attachments/assets/a9bcc8dd-0f49-42de-b917-f52e5ad5d4d0" target="_blank">
   <img src="https://github.com/user-attachments/assets/a9bcc8dd-0f49-42de-b917-f52e5ad5d4d0" alt="AWS Fargate Infrastructure Screenshot" width="100%" />
