@@ -12,6 +12,7 @@ My key principles:
 - Configure to rapidly scale, only when needed
 - Pay only for what you actually need and use
 - Low maintenance, limited yaml configuration necessary
+- Practical DevSecOps in CI/CD (dependency versioning/management, SAST, DAST, periodic penetration tests)
 - Focus on optimizing the feedback loop and speeding up the deployment pipelines
 - Unblock development so that product enhancements get out faster and more reliably
   
@@ -46,43 +47,65 @@ On this page, you’ll find a few highlights of my work.  If you’re interested
 ## 📸 Featured Work
 
 ### Concourse Pipelines
-- Thank you [Concourse CI](https://github.com/concourse/concourse)!
+- Thank you [Concourse CI team](https://github.com/concourse/concourse)!
 - Single page view of all CI/CD and Deployment pipelines
 - Status (green=good, yellow/red=need to fix)
 - Drill down to each task and related logs / Pause resources, tasks, pipelines
 - Crazy stable, running for years, no issues
-<a href="link-to-screenshot" target="_blank">
+<a href="link-to-screenshot" target="https://github.com/user-attachments/assets/76794d12-4a91-4088-b60e-e9d4e18f958a">
   <img src="https://github.com/user-attachments/assets/76794d12-4a91-4088-b60e-e9d4e18f958a" alt="Concourse Pipelines Screenshot" width="100%" />
 </a>
+
+---
 
 ### Container Build and Deployment Pipeline
 - Comprehensive pipeline for Pull-request to Production deployment
 - Simple OCI builds via buildkit, continuous regression testing, push button Production deployments
 - Automated and Deterministic builds and build configurations
-<a href="link-to-screenshot" target="_blank">
+<a href="link-to-screenshot" target="https://github.com/user-attachments/assets/66c78e25-c70c-4173-b2ae-278d82b4321a">
   <img src="https://github.com/user-attachments/assets/66c78e25-c70c-4173-b2ae-278d82b4321a" alt="Concourse API Pipeline Screenshot" width="100%" />
 </a>
 
+---
+
 ### Fargate Infrastructure
-<a href="link-to-screenshot" target="_blank">
+- Cloudformation snippet of Task Definition with JSON logging and Datadog sidecars
+- Use AWS Secrets Manager for high level secrets
+- Prefer encrypted credentials for app environment specific secrets
+- Rails credentials [is a great example](https://guides.rubyonrails.org/security.html#custom-credentials)
+<a href="https://github.com/user-attachments/assets/a9bcc8dd-0f49-42de-b917-f52e5ad5d4d0" target="_blank">
+  <img src="https://github.com/user-attachments/assets/a9bcc8dd-0f49-42de-b917-f52e5ad5d4d0" alt="AWS Fargate Infrastructure Screenshot" width="100%" />
+</a>
+
+---
+
+- Thank you Xing Yahao for [e1s](https://github.com/keidarcy/e1s)!
+- Crazy easy way to traverse multiple clusters, regions, services, tasks, and containers
+- Shell into a container easily to investigate (Rails console is your friend)
+<a href="https://github.com/user-attachments/assets/10d0e257-6ef6-4a0f-9722-9904df01f89e" target="_blank">
   <img src="https://github.com/user-attachments/assets/10d0e257-6ef6-4a0f-9722-9904df01f89e" alt="AWS Fargate Infrastructure Screenshot" width="100%" />
 </a>
 
+---
+
 ### Sidekiq Dashboard
+- Thank you [Sidekiq Team](https://github.com/sidekiq/sidekiq)!
 - **Millions** of jobs a day
 - **Billions** of jobs to date
-- Autoscaling, auto-healing, Aurora Reader/Writer balanced jobs, makes use of all database resources
+- Autoscaling, auto-healing, Aurora Reader/Writer balanced jobs, makes use of all database resources using Rails Multi-database support
 - No more unused standby databases
 - Embedded cron jobs in Sidekiq configuration
-<a href="link-to-screenshot" target="_blank">
+<a href="https://github.com/user-attachments/assets/6c026dd8-2cb1-489a-a9ce-00cda6a351cc" target="_blank">
   <img src="https://github.com/user-attachments/assets/6c026dd8-2cb1-489a-a9ce-00cda6a351cc" alt="Sidekiq Dashboard Screenshot" width="100%" />
 </a>
+
+---
 
 ### Datadog Observability
 - Single Dashboard view of entire Platform and critical metrics, events, logs, infrastructure costs, etc
 - Drill down to each critical service, metric, log, trace, profile, and monitor with deep integration for full visibility
 - Know exactly what's happening, when it happens, and the root cause, faster (MTTK)
-<a href="link-to-screenshot" target="_blank">
+<a href="https://github.com/user-attachments/assets/1457bec5-ba64-44a0-aef1-e870a18c1959" target="_blank">
   <img src="https://github.com/user-attachments/assets/1457bec5-ba64-44a0-aef1-e870a18c1959" alt="Datadog Custom Metrics Dashboard" width="100%" />
 </a>
 
