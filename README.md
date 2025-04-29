@@ -1,4 +1,4 @@
-# I'm Damian.  I'm currently looking for a New Adventure in DevOps
+# I'm currently looking for a New Adventure in DevOps
 
 I'm a **Senior DevOps/Infrastructure Engineer** that is passionate about scalable systems, well-designed architecture, and product-driven development. 
 
@@ -7,10 +7,11 @@ My expertise:
 - _Auto-scaling_, _auto-failover_, **RDS Aurora MySQL** clusters using Rails Multi-database support, with **Redshift** Datawarehouse
 - Comprehensive **Datadog** observability using Ruby APM, Tracing, Profiling, Monitors, Synthetics, and Datadog logs integration to get full visibility
 - Maintain infrastructure and deployment pipeline parity across Commercial and Govcloud AWS regions
+- Use Copilot, OpenAI, Claude, etc to accelerate my development and workflow
 
 My key principles:
 - Keep it Simple
-- Configure to rapidly scale, only when needed
+- Configure to rapidly scale when needed
 - Pay only for what you actually need and use
 - Low maintenance, limited yaml configuration necessary
 - Practical DevSecOps in CI/CD (dependency versioning/management, SAST, DAST, periodic penetration tests)
