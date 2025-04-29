@@ -5,7 +5,8 @@ I'm a **Senior DevOps/Infrastructure Engineer** that is passionate about scalabl
 My expertise:
 - _Auto-scaling_, _auto-healing_, _rapidly scalable_, and _cost efficient_ **Ruby on Rails**, **Sidekiq**, **Java/SCORM** on **AWS Fargate** via **Cloudformation**
 - _Auto-scaling_, _auto-failover_, **RDS Aurora MySQL** clusters using Rails Multi-database support, with **Redshift** Datawarehouse
-- Comprehensive **Datadog** observability using Ruby APM, Tracing, Profiling, Monitors, Synthetics, and Datadog logs integration to get full visibility 
+- Comprehensive **Datadog** observability using Ruby APM, Tracing, Profiling, Monitors, Synthetics, and Datadog logs integration to get full visibility
+- Maintain infrastructure and deployment pipeline parity across Commercial and Govcloud AWS regions
 
 My key principles:
 - Keep it Simple
@@ -38,6 +39,7 @@ On this page, you’ll find a few highlights of my work.  If you’re interested
 ## 🏆 Key Accomplishments
 - Designed and Maintained comprehensive **Concourse pipelines** automating full CI/CD for all services and infrastructure [📸](#concourse-pipelines)
 - Built and simplified our core API and Frontend pipeline for automated container builds and deployments [📸](#container-build-and-deployment-pipeline)
+- Migrated and upgraded from Percona 5.6 to Aurora MySQL 5.7 -> 8 and implemented Rails multi-database support [📸](#aurora-upgrades-and-scaling)
 - Architected cost-effective and massively scalable **ECS Fargate** services across regions and clusters [📸](#fargate-infrastructure)
 - Scaled **Sidekiq** to process millions of background jobs daily with zero downtime [📸](#sidekiq-dashboard)
 - Provisioned and expanded our **Datadog observability** with **Datadog Dashboards, APM, Logs, Monitors, Synthetics, etc** [📸](#datadog-observability)
@@ -52,7 +54,7 @@ On this page, you’ll find a few highlights of my work.  If you’re interested
 - Status (green=good, yellow/red=need to fix)
 - Drill down to each task and related logs / Pause resources, tasks, pipelines
 - Crazy stable, running for years, no issues
-<a href="link-to-screenshot" target="https://github.com/user-attachments/assets/76794d12-4a91-4088-b60e-e9d4e18f958a">
+<a href="https://github.com/user-attachments/assets/76794d12-4a91-4088-b60e-e9d4e18f958a" target="_blank">
   <img src="https://github.com/user-attachments/assets/76794d12-4a91-4088-b60e-e9d4e18f958a" alt="Concourse Pipelines Screenshot" width="100%" />
 </a>
 
@@ -62,8 +64,26 @@ On this page, you’ll find a few highlights of my work.  If you’re interested
 - Comprehensive pipeline for Pull-request to Production deployment
 - Simple OCI builds via buildkit, continuous regression testing, push button Production deployments
 - Automated and Deterministic builds and build configurations
-<a href="link-to-screenshot" target="https://github.com/user-attachments/assets/66c78e25-c70c-4173-b2ae-278d82b4321a">
+<a href="https://github.com/user-attachments/assets/66c78e25-c70c-4173-b2ae-278d82b4321a" target="_blank">
   <img src="https://github.com/user-attachments/assets/66c78e25-c70c-4173-b2ae-278d82b4321a" alt="Concourse API Pipeline Screenshot" width="100%" />
+</a>
+
+---
+
+### Aurora Upgrades and Scaling
+- Initially migrated from Percona 5.6 to Aurora MySQL 5.7 using manual replication
+- Over time, continually upgraded Aurora MySQL and eventually to Aurora MySQL 8
+<a href="https://github.com/user-attachments/assets/54e08084-226b-49b8-9934-e9f6ac7c731e" target="_blank">
+  <img src="https://github.com/user-attachments/assets/54e08084-226b-49b8-9934-e9f6ac7c731e" alt="Aurora Database Console Screenshot" width="100%" />
+</a>
+
+#### Make use of Aurora replicas
+- Use the Aurora Reader endpoint in Rails multi-database support configuration
+- This allowed us to scale down our resources since we're now using all databases
+- Aurora Reader endpoint instances can scale vertically to hundreds of vCPUs and horizontally to 15 readers
+- Massive scalability while still only paying for what you use
+<a href="https://github.com/user-attachments/assets/b163ef5a-c690-4de8-8a2a-20d80da443eb" target="_blank">
+  <img src="https://github.com/user-attachments/assets/b163ef5a-c690-4de8-8a2a-20d80da443eb" alt="Aurora Metrics Screenshot" width="100%" />
 </a>
 
 ---
@@ -75,16 +95,15 @@ On this page, you’ll find a few highlights of my work.  If you’re interested
 - Prefer encrypted credentials files for environment specific secrets
 - Rails credentials [is a great example](https://guides.rubyonrails.org/security.html#custom-credentials)
 <a href="https://github.com/user-attachments/assets/a9bcc8dd-0f49-42de-b917-f52e5ad5d4d0" target="_blank">
-  <img src="https://github.com/user-attachments/assets/a9bcc8dd-0f49-42de-b917-f52e5ad5d4d0" alt="AWS Fargate Infrastructure Screenshot" width="100%" />
+  <img src="https://github.com/user-attachments/assets/a9bcc8dd-0f49-42de-b917-f52e5ad5d4d0" alt="AWS Fargate Cloudformation Screenshot" width="100%" />
 </a>
 
----
-
+#### View and troubleshoot via e1s
 - Thank you Xing Yahao for [e1s](https://github.com/keidarcy/e1s)!
 - Crazy easy way to traverse multiple clusters, regions, services, tasks, and containers
 - Shell into a container easily to investigate (Rails console is your friend)
 <a href="https://github.com/user-attachments/assets/10d0e257-6ef6-4a0f-9722-9904df01f89e" target="_blank">
-  <img src="https://github.com/user-attachments/assets/10d0e257-6ef6-4a0f-9722-9904df01f89e" alt="AWS Fargate Infrastructure Screenshot" width="100%" />
+  <img src="https://github.com/user-attachments/assets/10d0e257-6ef6-4a0f-9722-9904df01f89e" alt="AWS Fargate e1s Screenshot" width="100%" />
 </a>
 
 ---
@@ -107,7 +126,7 @@ On this page, you’ll find a few highlights of my work.  If you’re interested
 - Drill down to each critical service, metric, log, trace, profile, and monitor with deep integration for full visibility
 - Know exactly what's happening, when it happens, and the root cause, faster (MTTK)
 <a href="https://github.com/user-attachments/assets/1457bec5-ba64-44a0-aef1-e870a18c1959" target="_blank">
-  <img src="https://github.com/user-attachments/assets/1457bec5-ba64-44a0-aef1-e870a18c1959" alt="Datadog Custom Metrics Dashboard" width="100%" />
+  <img src="https://github.com/user-attachments/assets/1457bec5-ba64-44a0-aef1-e870a18c1959" alt="Datadog Dashboard Screenshot" width="100%" />
 </a>
 
 ---
