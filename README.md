@@ -1,9 +1,17 @@
-# Hi there 👋 I'm Damian
+# I'm Damian.  I'm currently looking for a New Adventure in DevOps
 
-Welcome! I'm a Senior DevOps/Infrastructure Engineer passionate about scalable systems, well-designed architecture, and product-driven development. 
+I'm a **Senior DevOps/Infrastructure Engineer** that is passionate about scalable systems, well-designed architecture, and product-driven development. 
 
-My recent experience is with **Ruby on Rails**, **Sidekiq**, **Java/SCORM** on **AWS Fargate** via **Cloudformation**, **RDS Aurora MySQL** autoscaling clusters and **RDS PostgreSQL/MySQL**, **Redshift** for our Datawarehouse, and **Datadog** for all observability
+My expertise:
+- _Auto-scaling_, _auto-healing_, _rapidly scalable_, and _cost efficient_ **Ruby on Rails**, **Sidekiq**, **Java/SCORM** on **AWS Fargate** via **Cloudformation**
+- _Auto-scaling_, _auto-failover_, **RDS Aurora MySQL** clusters using Rails Multi-database support, with **Redshift** Datawarehouse
+- Comprehensive **Datadog** observability using Ruby APM, Tracing, Profiling, Monitors, Synthetics, and Datadog logs integration to get full visibility 
 
+I’m currently **open to new roles** where I can bring my expertise in infrastructure, DevOps, CI/CD automation, AWS architecture, and system reliability to help teams ship faster, scale smarter, and operate more securely.
+
+On this page, you’ll find a few highlights of my work.  If you’re interested in what I can help build for your company — whether it’s simplifying infrastructure, improving reliability, or scaling operations — feel free to reach out.  I’d be happy to walk you through my work and discuss how I can contribute to your team’s goals.
+
+[Connect with me](https://www.linkedin.com/in/damianfuentes/)
 ---
 
 ## 🛠️ Tech Stack
@@ -18,15 +26,6 @@ My recent experience is with **Ruby on Rails**, **Sidekiq**, **Java/SCORM** on *
 [![Concourse CI](https://img.shields.io/badge/Build-Concourse%20CI-0078D7?logo=azuredevops&logoColor=white)](https://concourse-ci.org/)
 
 ---
-## I'm Open to a New Adventure
-
-I’m currently open to new roles where I can bring my expertise in infrastructure, DevOps, CI/CD automation, AWS architecture, and system reliability to help teams ship faster, scale smarter, and operate more securely.
-
-On this page, you’ll find a few highlights of my work.  If you’re interested in what I can help build for your company — whether it’s simplifying infrastructure, improving reliability, or scaling operations — feel free to reach out.  I’d be happy to walk you through my work and discuss how I can contribute to your team’s goals.
-
-[Connect with me](https://www.linkedin.com/in/damianfuentes/)
-
----
 ## 🏆 Key Accomplishments
 - Designed and Maintained comprehensive **Concourse pipelines** automating full CI/CD for all services and infrastructure [📸](#concourse-pipelines)
 - Built and simplified our core API and Frontend pipeline for automated container builds and deployments [📸](#container-build-and-deployment-pipeline)
@@ -39,11 +38,19 @@ On this page, you’ll find a few highlights of my work.  If you’re interested
 ## 📸 Featured Work
 
 ### Concourse Pipelines
+- Thank you [Concourse CI](https://github.com/concourse/concourse)!
+- Single page view of all CI/CD and Deployment pipelines
+- Status (green=good, yellow/red=need to fix)
+- Drill down to each task and related logs / Pause resources, tasks, pipelines
+- Crazy stable, running for years, no issues
 <a href="link-to-screenshot" target="_blank">
   <img src="https://github.com/user-attachments/assets/76794d12-4a91-4088-b60e-e9d4e18f958a" alt="Concourse Pipelines Screenshot" width="100%" />
 </a>
 
 ### Container Build and Deployment Pipeline
+- Comprehensive pipeline for Pull-request to Production deployment
+- Simple OCI builds via buildkit, continuous regression testing, push button Production deployments
+- Automated and Deterministic builds and build configurations
 <a href="link-to-screenshot" target="_blank">
   <img src="https://github.com/user-attachments/assets/66c78e25-c70c-4173-b2ae-278d82b4321a" alt="Concourse API Pipeline Screenshot" width="100%" />
 </a>
