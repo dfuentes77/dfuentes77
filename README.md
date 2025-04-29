@@ -7,6 +7,14 @@ My expertise:
 - _Auto-scaling_, _auto-failover_, **RDS Aurora MySQL** clusters using Rails Multi-database support, with **Redshift** Datawarehouse
 - Comprehensive **Datadog** observability using Ruby APM, Tracing, Profiling, Monitors, Synthetics, and Datadog logs integration to get full visibility 
 
+My key principles:
+- Keep it Simple
+- Configure to rapidly scale, only when needed
+- Pay only for what you actually need and use
+- Low maintenance, limited yaml configuration necessary
+- Focus on optimizing the feedback loop and speeding up the deployment pipelines
+- Unblock development so that product enhancements get out faster and more reliably
+  
 I’m currently **open to new roles** where I can bring my expertise in infrastructure, DevOps, CI/CD automation, AWS architecture, and system reliability to help teams ship faster, scale smarter, and operate more securely.
 
 On this page, you’ll find a few highlights of my work.  If you’re interested in what I can help build for your company — whether it’s simplifying infrastructure, improving reliability, or scaling operations — feel free to reach out.  I’d be happy to walk you through my work and discuss how I can contribute to your team’s goals.
@@ -61,11 +69,19 @@ On this page, you’ll find a few highlights of my work.  If you’re interested
 </a>
 
 ### Sidekiq Dashboard
+- **Millions** of jobs a day
+- **Billions** of jobs to date
+- Autoscaling, auto-healing, Aurora Reader/Writer balanced jobs, makes use of all database resources
+- No more unused standby databases
+- Embedded cron jobs in Sidekiq configuration
 <a href="link-to-screenshot" target="_blank">
   <img src="https://github.com/user-attachments/assets/6c026dd8-2cb1-489a-a9ce-00cda6a351cc" alt="Sidekiq Dashboard Screenshot" width="100%" />
 </a>
 
 ### Datadog Observability
+- Single Dashboard view of entire Platform and critical metrics, events, logs, infrastructure costs, etc
+- Drill down to each critical service, metric, log, trace, profile, and monitor with deep integration for full visibility
+- Know exactly what's happening, when it happens, and the root cause, faster (MTTK)
 <a href="link-to-screenshot" target="_blank">
   <img src="https://github.com/user-attachments/assets/1457bec5-ba64-44a0-aef1-e870a18c1959" alt="Datadog Custom Metrics Dashboard" width="100%" />
 </a>
