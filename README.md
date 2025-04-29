@@ -137,7 +137,7 @@ On this page, you’ll find a few highlights of my work.  If you’re interested
 - [Build and deploy containers in Concourse Pipelines](./blog/concourse-containers.md)
 - [Scaling Rails and Sidekiq with Multi-database support using Aurora databases](./blog/railsdb-scaling.md)
 - [Simple Container Orchestration with CloudFormation and ECS Fargate](./blog/cloudformation-fargate.md)
-- [Optimzing costs with AWS Fargate and Fargate spot](./blog/fargate-costs-scaling.md)
+- [Optimizing costs with AWS Fargate and Fargate SPOT](./blog/fargate-costs-scaling.md)
 - [Datadog Observability for Fargate Containers](./blog/datadog-observability.md)
 
 
