@@ -112,11 +112,12 @@ On this page, you’ll find a few highlights of my work.  If you’re interested
 
 ---
 
-## ✍️ Latest Blog Posts
-- [Scaling Sidekiq for High-Throughput Apps](./blog/sidekiq-scaling.md)
-- [Modular CloudFormation for Real-World Teams](./blog/cloudformation-modular.md)
-- [Optimizing AWS Fargate: A Practical Guide](./blog/fargate-optimizations.md)
-- [Datadog Observability at Scale](./blog/datadog-observability.md)
+## ✍️ Latest Blog Posts (pending)
+- [Build and deploy containers in Concourse Pipelines](./blog/concourse-containers.md)
+- [Scaling Rails and Sidekiq with Multi-database support using Aurora databases](./blog/railsdb-scaling.md)
+- [Simple Container Orchestration with CloudFormation and ECS Fargate](./blog/cloudformation-fargate.md)
+- [Optimzing costs with AWS Fargate and Fargate spot](./blog/fargate-costs-scaling.md)
+- [Datadog Observability for Fargate Containers](./blog/datadog-observability.md)
 
 
 ---
