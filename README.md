@@ -4,10 +4,11 @@ I'm a **Senior DevOps/Infrastructure Engineer** that is passionate about scalabl
 
 My expertise:
 - _Auto-scaling_, _auto-healing_, _rapidly scalable_, and _cost efficient_ **Ruby on Rails**, **Sidekiq**, **Java/SCORM** on **AWS Fargate** via **Cloudformation**
-- _Auto-scaling_, _auto-failover_, **RDS Aurora MySQL** clusters using Rails Multi-database support, with **Redshift** Datawarehouse
-- Comprehensive **Datadog** observability using Ruby APM, Tracing, Profiling, Monitors, Synthetics, and Datadog logs integration to get full visibility
-- Maintain infrastructure and deployment pipeline parity across Commercial and Govcloud AWS regions
-- Use Copilot, OpenAI, Claude, etc to accelerate my development and workflow
+- _Auto-scaling_, _auto-failover_, **RDS Aurora MySQL** clusters using Rails Multi-database support
+- Comprehensive **Datadog observability** using Ruby APM, Tracing, Profiling, Monitors, Synthetics, and Datadog logs integration to get full visibility
+- Ensure infrastructure and deployment pipeline parity across **Commercial and GovCloud AWS regions** to support compliance, operational consistency, and streamlined cross-environment deployments
+- Proactively manage the SDLC of our software stack and dependencies to **mitigate security vulnerabilities, avoid end-of-life risks**, and ensure long-term operational integrity
+- Use **Copilot, OpenAI, Claude**, etc, wherever possible, to accelerate my development and workflow
 
 My key principles:
 - Keep it Simple
