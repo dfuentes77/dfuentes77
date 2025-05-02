@@ -92,6 +92,9 @@ On this page, you’ll find a few highlights of my work.  If you’re interested
 <a href="https://github.com/user-attachments/assets/b163ef5a-c690-4de8-8a2a-20d80da443eb" target="_blank">
   <img src="https://github.com/user-attachments/assets/b163ef5a-c690-4de8-8a2a-20d80da443eb" alt="Aurora Metrics Screenshot" width="100%" />
 </a>
+<a href="https://github.com/user-attachments/assets/65a37e5c-3b0b-483d-b7ce-4c2d0db32d14" target="_blank">
+  <img src="https://github.com/user-attachments/assets/65a37e5c-3b0b-483d-b7ce-4c2d0db32d14" alt="Aurora Reader Scaling Screenshot" width="100%" />
+</a>
 
 ---
 
