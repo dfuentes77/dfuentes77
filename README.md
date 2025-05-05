@@ -158,4 +158,4 @@ On this page, you’ll find a few highlights of my work.  If you’re interested
 
 ---
 
-> “Fast code wins features. Clear architecture wins teams.”
+> "Simplicity is prerequisite for reliability"
