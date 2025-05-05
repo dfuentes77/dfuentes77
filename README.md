@@ -3,8 +3,10 @@
 I'm a **Senior DevOps/Infrastructure Engineer** that is passionate about scalable systems, well-designed architecture, and product-driven development. 
 
 My expertise:
-- _Auto-scaling_, _auto-healing_, _rapidly scalable_, and _cost efficient_ **Ruby on Rails**, **Sidekiq**, **Java/SCORM** on **AWS Fargate** via **Cloudformation**
-- _Auto-scaling_, _auto-failover_, **RDS Aurora MySQL** clusters using Rails Multi-database support
+- _Auto-scaling_, _auto-healing_, and _cost efficient_ OCI containers on **ECS Fargate** via **Cloudformation**, built and deployed via [Concourse CI](https://concourse-ci.org/) 
+  - No need for cumbersome kubernetes cluster upgrades, in-place or blue-green.  No vendor lock-in (they are just containers)
+- _Auto-scaling_, _auto-failover_, **RDS Aurora MySQL** using Rails Multi-database support
+- Architectual management and upgrades for **Ruby on Rails**, **Sidekiq** for background job processes, and **Java/SCORM** for hosting Rustici SCORM Engine
 - Comprehensive **Datadog observability** using Ruby APM, Tracing, Profiling, Monitors, Synthetics, and Datadog logs integration to get full visibility
 - Ensure infrastructure and deployment pipeline parity across **Commercial and GovCloud AWS regions** to support compliance, operational consistency, and streamlined cross-environment deployments
 - Proactively manage the SDLC of our software stack and dependencies to **mitigate security vulnerabilities, avoid end-of-life risks**, and ensure long-term operational integrity
