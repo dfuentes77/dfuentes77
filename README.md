@@ -1,5 +1,3 @@
-# I'm currently looking for a New Adventure in DevOps
-
 I'm a **Senior DevOps/Infrastructure Engineer** that is passionate about scalable systems, well-designed architecture, and product-driven development. 
 
 My expertise:
@@ -21,9 +19,9 @@ My key principles:
 - Focus on optimizing the feedback loop and speeding up the deployment pipelines
 - Unblock development so that product enhancements get out faster and more reliably
   
-I’m currently **open to new roles** where I can bring my expertise in infrastructure, DevOps, CI/CD automation, AWS architecture, and system reliability to help teams ship faster, scale smarter, and operate more securely.
+~~I’m currently **open to new roles** where I can bring my expertise in infrastructure, DevOps, CI/CD automation, AWS architecture, and system reliability to help teams ship faster, scale smarter, and operate more securely.~~
 
-On this page, you’ll find a few highlights of my work.  If you’re interested in what I can help build for your company — whether it’s simplifying infrastructure, improving reliability, or scaling operations — feel free to reach out.  I’d be happy to walk you through my work and discuss how I can contribute to your team’s goals.
+On this page, you’ll find a few highlights of my work.  If you’re interested in what I can help build for your company — whether it’s simplifying infrastructure, improving reliability, or scaling operations — feel free to reach out.  ~~I’d be happy to walk you through my work and discuss how I can contribute to your team’s goals.~~
 
 [Connect with me](https://www.linkedin.com/in/damianfuentes/)
 ---
